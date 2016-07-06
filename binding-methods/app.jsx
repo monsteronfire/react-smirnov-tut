@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import CartItem from './cartItem';
 
 const order = {
@@ -7,7 +7,7 @@ const order = {
   image: 'http://images.all-free-download.com/images/graphiclarge/citrus_fruit_184416.jpg',
   initialQty: 3,
   price: 8
-}
+};
 
 ReactDOM.render(
   <CartItem title = {order.title}
